@@ -1,4 +1,4 @@
-# sunnah_app
+# Sunnah_app
 
 A new Flutter project.
 
