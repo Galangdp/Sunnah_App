@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'model/ustads_sunnah.dart';
+import '../model/ustads_sunnah.dart';
 
 var informationTextStyle = const TextStyle(fontFamily: 'Oxygen');
 
@@ -219,7 +219,7 @@ class DetailMobilePage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         CircleAvatar(
-                          backgroundColor: Colors.grey,
+                          backgroundColor: Colors.transparent,
                           child: IconButton(
                             icon: const Icon(
                               Icons.arrow_back,

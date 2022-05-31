@@ -11,7 +11,11 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("I Love Sunnah 👍🏻"),
+        title: Text("I Love Sunnah 👍🏻",
+          style: TextStyle(
+              fontSize: 23),),
+          toolbarHeight: 70,
+          backgroundColor: Colors.green
       ),
       body: LayoutBuilder(
         builder: (context, constraints) {

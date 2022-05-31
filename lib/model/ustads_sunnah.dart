@@ -16,7 +16,7 @@ class UstadzSunnah {
   });
 }
 
-var ustadzSunnahList = [
+var ustadzSunnahList =[
   UstadzSunnah(
     name: 'Ustadz Khalid Basalamah',
     date: '1 Mei 1975',
@@ -148,3 +148,10 @@ var ustadzSunnahList = [
     ],
   ),
 ];
+// static getTourismByQuery(String query) {
+//   return _
+//       .where((place) =>
+//   place.title.toLowerCase().contains(query.toLowerCase()) ||
+//       place.location.toLowerCase().contains(query.toLowerCase()))
+//       .toList();
+// }

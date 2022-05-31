@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sunnah_app/main_screen.dart';
+import 'package:sunnah_app/homepage.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: "Profile Ustadz Sunnah",
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: HomePage(),
     );
   }
 }
